@@ -1,0 +1,24 @@
+{
+  "config": {
+    "shortcuts": [
+      {"token":"config","command":"setsid kitty -e nvim ~/.config/samBaar/config.json"},
+      {"token":"firefox","command":"setsid firefox"},
+      {"token":"f","command":"setsid firefox"},
+      {"token":"fgo","command":"firefox --new-window https:www.google.com"},
+      {"token":"fyt","command":"firefox --new-window https://www.youtube.com"},
+      {"token":"fch","command":"firefox --new-window https://chatgpt.com"},
+      {"token":"fgit","command":"firefox --new-window https://www.github.com/Harikrishnan-Ashok"},
+      {"token":"fwh","command":"firefox --new-window https:web.whatsapp.com"},
+      {"token":"whatsapp","command":"firefox --new-window https:web.whatsapp.com"},
+      {"token":"fpr","command":"firefox --private-window"},
+      {"token":"gpt","command":"firefox --new-window https://chatgpt.com"},
+      {"token":"lf","command":"setsid kitty -e lf"},
+      {"token":"nvim","command":"setsid kitty -e nvim"},
+      {"token":"pav","command":"setsid kitty -e pavucontrol"},
+      {"token":"str","command":"setsid kitty -e stremio"},
+      {"token":"sound","command":"setsid kitty -e pavucontrol"},
+      {"token":"obs","command":"setsid obs"},
+			{"token":"MC UP","command":"cd ~/MinecraftServer/ && java -Xmx6144M -Xms6144M -jar server.jar"}
+		]
+  }
+}

@@ -1,0 +1,32 @@
+file:///home/pot/CustomBuildsFromClones/reactiveGo/main.go {"mtime":1756382292006,"ctime":1756382292006,"size":527,"etag":"3enmhnlpqh0","orphaned":false,"typeId":""}
+package main
+
+import (
+	"io/ioutil"
+	"log"
+	"os"
+
+	"github.com/reactivego/ivg/encode"
+	"github.com/reactivego/ivg/generate"
+)
+
+func main() {
+	svgData, err := os.ReadFile("input.svg")
+	if err != nil {
+		log.Fatal(err)
+	} 
+
+	gen := &generate.Generator{}
+	dest := &encode.Encoder{}
+
+	if err := gen.Generate(dest, svgData); err != nil {
+		log.Fatal(err)
+	}
+
+	output := dest.Bytes()
+	if err := ioutil.WriteFile("output.iconvg", output, 0644); err != nil {
+		log.Fatal(err)
+	}
+
+	log.Println("Converted input.svg → output.iconvg")
+}

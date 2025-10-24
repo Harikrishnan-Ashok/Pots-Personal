@@ -1,0 +1,17 @@
+{
+  "_id": "833d7d66-5d4c-46ef-bc42-e78b6c9a4bac",
+  "connectionInfo": {
+    "id": "833d7d66-5d4c-46ef-bc42-e78b6c9a4bac",
+    "lastUsed": "2025-10-04T15:12:28.328Z",
+    "favorite": {
+      "name": "PotsConnection",
+      "color": "color1"
+    },
+    "savedConnectionType": "recent",
+    "connectionOptions": {
+      "connectionString": "mongodb+srv://potbeater@cluster0.jjcdaab.mongodb.net/",
+      "oidc": {}
+    }
+  },
+  "version": 1
+}
