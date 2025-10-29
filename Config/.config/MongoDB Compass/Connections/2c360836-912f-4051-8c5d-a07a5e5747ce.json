@@ -1,0 +1,17 @@
+{
+  "_id": "2c360836-912f-4051-8c5d-a07a5e5747ce",
+  "connectionInfo": {
+    "id": "2c360836-912f-4051-8c5d-a07a5e5747ce",
+    "connectionOptions": {
+      "connectionString": "mongodb+srv://potbeater@cluster0.jjcdaab.mongodb.net/",
+      "oidc": {}
+    },
+    "savedConnectionType": "recent",
+    "favorite": {
+      "name": "ezApi_Connection",
+      "color": "color3"
+    },
+    "lastUsed": "2025-10-29T11:59:37.986Z"
+  },
+  "version": 1
+}
